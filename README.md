@@ -10,22 +10,21 @@ For my project the number of clusters, K = 3. The initia centriods are ideally r
 The initial point distribution should be depicted in the 2-D space, alongside 3
 initial centroid points. The centriod should be in 3 different colors and specific
 markers indicating they are centroids and not points. The dataset points should
-be in any 4 th color. So essentially 3 markers and 4 colors in total. <br>
+be in any 4 th color. The is also where we compute the mean of the position of the points toward the centriods. For each of the points, depending on which is closer to, assign that point to its corresponding centriod. <br>
 
 ![](img/initial.PNG) <br>
 
-Subsequent to the above step, once the points are assigned to its closest
+Once the points are assigned to its closest
 centroid, color each point to its assigned centroid color. The centroid should still
-show in same color, but different marker. So now essentially 3 markers and 3
-colors in total. <br>
+show in same color, but different marker. <br>
 
 ![](img/iterations.PNG) <br>
 
-Then only changing centroids should be printed after each iteration. Also take a look at how the colors are changing over each iteration. <br>
+The changing centroids should be printed after each iteration. Also take a look at how the colors are changing over each iteration. <br>
 
 ![](img/results.PNG) <br>
 
-Show the final point distribution, with each point colored according to its final
-centroid. So essentially 2 markers and 3 colors in total. <br>
+The final point distribution, with each point colored according to its final
+centroid. <br>
 
 ![](img/final.PNG) <br>
