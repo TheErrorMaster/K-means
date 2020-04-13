@@ -7,7 +7,6 @@ It is a unsupervised machine learning algorithm where the goal is to group data 
 you will create set k number of random placed points in you data. That will become you cluster centriods.
 For my project the number of clusters, K = 3. The initia centriods are ideally random, but they are [3,3],[6,2],[8,5].
 
-# Step One
 The initial point distribution should be depicted in the 2-D space, alongside 3
 initial centroid points. The centriod should be in 3 different colors and specific
 markers indicating they are centroids and not points. The dataset points should
